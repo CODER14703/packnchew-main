@@ -237,6 +237,7 @@ app.delete('/delete-trip/:id', (req, res) => {
   });
 });
 
+
 // Define the API Port
 const PORT = process.env.PORT || 5000;
 
